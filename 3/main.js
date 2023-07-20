@@ -33,7 +33,7 @@
     const numberInput = document.getElementById('numberInput').value;
     const numbers = numberInput.split(':').map(Number);
     const arithmeticMean = calculateArithmeticMean(numbers);
-    alert(`Arithmetic Mean: ${arithmeticMean}`);
+    alert(`არითმეტიკული საშუალო: ${arithmeticMean}`);
   });
 
   // ნამრავლი
@@ -41,7 +41,7 @@
     const numberInput = document.getElementById('numberInput').value;
     const numbers = numberInput.split(':').map(Number);
     const product = calculateProduct(numbers);
-    alert(`Product: ${product}`);
+    alert(`ნამრავლი: ${product}`);
   });
 
   // ჯამი
@@ -49,5 +49,5 @@
     const numberInput = document.getElementById('numberInput').value;
     const numbers = numberInput.split(':').map(Number);
     const sum = calculateSum(numbers);
-    alert(`Sum: ${sum}`);
+    alert(`ჯამი: ${sum}`);
   });
